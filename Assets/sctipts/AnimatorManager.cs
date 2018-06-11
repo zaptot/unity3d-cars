@@ -3,16 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class AnimatorManager : MonoBehaviour {
+
     public GameObject car;
     private PlayerMotor motor;
+
     // Use this for initialization
     void Start() {
         motor = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMotor>();
-    }
-
-    // Update is called once per frame
-    void Update() {
-
     }
 
     public void startFirst()
